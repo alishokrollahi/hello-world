@@ -1,11 +1,21 @@
 pipenv install django~=3.1.0
-
 pipenv shell
-
 django-admin startproject config .
-
 python manage.py startapp app_name
-
 python manage.py runserver
-
 exit
+
+
+-----------------------------------------
+
+
+GIT:
+git init
+git status
+git add -A
+git commit -m "initial commit" (double quotes!)
+
+git remote add origin https://github.com/alishokrollahi/hello-world.git
+git branch -M main
+git push -u origin main
+#git push -u origin master ->this is comment
